@@ -1,0 +1,11 @@
+{
+  "venvPath": ".",
+  "venv": ".venv",
+  "typeCheckingMode": "basic",
+  "reportOptionalSubscript": false,
+  "reportOptionalMemberAccess": false,
+  "reportGeneralTypeIssues": false,
+  "reportMissingImports": false,
+  "reportUnusedImport": false,
+  "extraPaths": ["./.venv/lib/python3.12/site-packages"]
+}
