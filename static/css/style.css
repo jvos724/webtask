@@ -1,0 +1,50 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #1e1e2e;
+  color: #cdd6f4;
+}
+
+.main-title {
+  border-bottom: 3px double #313244;
+  color: #f5e0dc;
+}
+
+.project {
+  border-bottom: 2px solid #313244;
+}
+
+.project-name {
+  color: #89b4fa;
+}
+
+.project-desc {
+  font-style: italic;
+}
+
+.task-list-item {
+  line-height: 1.5rem;
+}
+
+.tag {
+  background: #cdd6f4;
+  color: #11111b;
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.1em;
+}
+
+.tag-feature {
+  background: #a6e3a1;
+}
+
+.tag-bug {
+  background: #f38ba8;
+}
+
+.tag-important {
+  background: #f9e2af;
+}
