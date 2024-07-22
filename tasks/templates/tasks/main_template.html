@@ -23,7 +23,7 @@
       {{ task.name }}
       {% if task.tags.all %}
       {% for tag in task.tags.all %}
-       <span class="tag">#{{ tag.name }}</span>
+      <span class="tag tag-{{ tag.name }}">#{{ tag.name }}</span>
       {% endfor %}
       {% endif %}
     </li>

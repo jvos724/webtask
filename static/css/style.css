@@ -24,9 +24,27 @@ body {
   font-style: italic;
 }
 
+.task-list-item {
+  line-height: 1.5rem;
+}
+
 .tag {
-  background: #f9e2af;
+  background: #cdd6f4;
   color: #11111b;
+  font-family: monospace;
+  font-size: 1rem;
   font-weight: bold;
   padding: 0.1em;
+}
+
+.tag-feature {
+  background: #a6e3a1;
+}
+
+.tag-bug {
+  background: #f38ba8;
+}
+
+.tag-important {
+  background: #f9e2af;
 }
