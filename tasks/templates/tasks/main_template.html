@@ -6,37 +6,38 @@
 
 {% block body_header %}
 <header>
-  <h1>Project Task Overview</h1>
+  <h1 class="main-title">Project Task Overview</h1>
 </header>
 {% endblock %}
 
 {% block body_main %}
 <main>
   {% for project in projects %}
-  <h2>{{ project.name }}</h2>
-  <p>{{ project.description }}</p>
+  <div class="project">
+  <h2 class="project-name">{{ project.name }}</h2>
+  <p class="project-desc">{{ project.description }}</p>
   {% if project.tasks.all %}
-  <ul>
+  <ul class="task-list">
     {% for task in project.tasks.all %}
-    <li>
+    <li class="task-list-item">
       {{ task.name }}
       {% if task.tags.all %}
       {% for tag in task.tags.all %}
-        #{{ tag.name }}
+       <span class="tag">#{{ tag.name }}</span>
       {% endfor %}
       {% endif %}
     </li>
     {% endfor %}
   </ul>
   {% endif %}
-  <hr />
+  </div>
   {% endfor %}
 </main>
 {% endblock %}
 
 {% block body_footer %}
 <footer>
-  <p>Copyright &copy; 2024 Jeff Vos</p>
+  <p class="footer-text">Copyright &copy; 2024 Jeff Vos</p>
 </footer>
 {% endblock %}
 

@@ -1,0 +1,32 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #1e1e2e;
+  color: #cdd6f4;
+}
+
+.main-title {
+  border-bottom: 3px double #313244;
+  color: #f5e0dc;
+}
+
+.project {
+  border-bottom: 2px solid #313244;
+}
+
+.project-name {
+  color: #89b4fa;
+}
+
+.project-desc {
+  font-style: italic;
+}
+
+.tag {
+  background: #f9e2af;
+  color: #11111b;
+  font-weight: bold;
+  padding: 0.1em;
+}
